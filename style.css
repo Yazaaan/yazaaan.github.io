@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+}
+
+div{
+    text-align: center;
+    position: fixed;
+    opacity: 0;
+    width: 100%;
+    margin-top: 10%;
+}
+
+#eins{
+    animation: show 4s ease 0s 1 normal forwards;
+}
+
+#zwei{
+    animation: show-ever 4s ease 4.2s 1 normal forwards;
+}
+
+@keyframes show{
+    0% {opacity: 0;}
+    50% {opacity: 100;}
+    100% {opacity: 0%;}
+}
+
+@keyframes show-ever{
+    0% {opacity: 0;}
+    100% {opacity: 100;}
+}
