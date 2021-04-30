@@ -19,9 +19,8 @@ video{
     height: 240;
     top: 60%;
     left: 50%;
-    margin-top: -120px; /* Negative half of height. */
-    margin-left: -120px; /* Negative half of width. */
-
+    margin-top: -120px;
+    margin-left: -120px;
 }
 
 #eins{
